@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	width: 100%;
+}
+
+nav ul {
+	height: 60px;
+	width: 100%;
+	justify-content: flex-end;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	background-color: #134660; 
+}
+
+li {
+	list-style-type: none;
+}
+	
+li a {
+    display: block;
+    color: #fff;
+    padding: 24px 24px;
+    text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+#slider img {
+	width:100%;
+	height:auto;
+}
+
+#slider {
+	height:auto;
+}
+
+#om_mig {
+	display: flex;
+    flex-direction: row;
+    background-color: #C6D4D6;
+	justify-content: center;
+	height: auto;
+}
+
+.mig {
+		margin: 25px;
+	width: 40%;
+}
+
+#txt_cirkel {
+	border-radius: 500px;
+	width: 500px;
+	height: 500px;
+	box-shadow: 12px 5px #5F7577;
+	padding: 100px;
+	margin: 30px;
+	background-color: #779498;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+#txt_cirkel h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	align-content: center;
+	color: #fff;
+}
+#txt_cirkel p {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 25px;
+	text-align: center;
+	align-content: center;
+	color: #fff;
+}
+
+
+#portfolio {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: auto;
+	background-color: #779498;
+	align-items: center;
+}
+
+.overskrift {
+	height: 70px;
+	width: 100%;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.overskrift h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 54px;
+	color: #FFFFFF;
+	margin-left: 40px;
+}
+
+.arbejde { 
+	display: flex;
+	flex-wrap: wrap;
+	height: 90%;
+	width: 80%;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.produkt {
+	height: 280px;
+	width: 280px;
+	margin: 25px;
+	border-radius: 50%;
+	background-color: #fff;
+	box-shadow: 5px 12px #5F7577;
+	transition: .5s ease;
+}
+
+.produkt:hover {
+  	opacity: 0.7;
+	filter: grayscale(100%);
+}
+
+.produkt img {
+	border-radius: 50%
+}
+
+#kontakt {
+	display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 1080px;
+    background-color: #C6D4D6;
+}
+
+#kontakt_cirkel {
+	border-radius: 300px;
+	width: 300px;
+	height: 300px;
+	box-shadow: 12px 5px #5F7577;
+	margin-top: 10%;
+	margin-left: 10%;
+	padding: 80px;
+	background-color: #779498;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#kontakt_cirkel h3 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	align-content: center;
+	color: #fff;
+}
+
+#kontakt_cirkel p {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	align-content: center;
+	color: #fff;
+}
+
+#socialmedia {
+	display: flex;
+	flex-direction: row;
+	margin-left: 11%;
+	margin-top: 2%;
+}
+
+.icon {
+	height: 50px;
+	width: 50px;
+	margin: 25px;
+	border-radius: 50px;
+	box-shadow: 2px 3px #5F7577;
+	transition: .5s ease;
+}
+
+.icon:hover {
+  	opacity: 0.5;
+	filter: grayscale(100%);
+}
+
+footer {
+	text-align: center;
+	height: 40px;
+	background-color: #134660;
+}
+
+footer p {
+	padding-top: 1%;
+	color: #fff;
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+}

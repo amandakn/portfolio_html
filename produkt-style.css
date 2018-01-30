@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	width: 100%;
+	background-color: #C6D4D6;
+}
+
+nav ul {
+	width: 97%;
+	justify-content: flex-end;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	margin-right: 2%;
+}
+nav li {
+	list-style-type: none;
+}
+	
+li a {
+    display: block;
+    color: #fff;
+    padding: 24px 24px;
+    text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: auto;
+	align-items: center;
+}
+
+.overskrift {
+	height: 70px;
+	width: 100%;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.overskrift h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 54px;
+	color: #FFFFFF;
+	margin-left: 40px;
+}
+
+#container {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	margin-top: 70px;
+	width: 100%;
+	height:auto;
+}
+
+.billeder {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5%;
+	width: 60%;
+}
+
+.billede img {
+	width: 80%;
+	height: auto;
+	padding: 1%;
+}
+
+.beskrivelse {
+font-family: 'Montserrat', sans-serif;	
+width: 40%;
+margin-right: 6%;
+	
+}
+
+.beskrivelse h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+
+.beskrivelse p {
+	margin-top: 10%;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 25px;
+	color: #fff;
+}
+
+.beskrivelse li {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #fff;
+	
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
